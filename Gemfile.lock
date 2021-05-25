@@ -157,7 +157,6 @@ GEM
     marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.1.0)
-    mini_portile2 (2.5.1)
     minitest (5.14.4)
     mongo (2.14.0)
       bson (>= 4.8.2, < 5.0.0)
@@ -179,8 +178,7 @@ GEM
     mustermann-grape (1.0.1)
       mustermann (>= 1.0.0)
     nio4r (2.5.7)
-    nokogiri (1.11.5)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.11.5-x86_64-darwin)
       racc (~> 1.4)
     puma (4.3.8)
       nio4r (~> 2.0)
@@ -272,7 +270,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-20
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -290,7 +288,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
 
 RUBY VERSION
-   ruby 2.7.2p137
+   ruby 3.0.1p64
 
 BUNDLED WITH
-   2.1.4
+   2.2.17
