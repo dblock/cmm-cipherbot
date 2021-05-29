@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.1'
+# ruby '2.7.2'
 
 # Load env variables
 gem 'dotenv-rails', '~> 2.7', require: 'dotenv/rails-now' 
@@ -42,7 +43,7 @@ end
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Slack Ruby Bot Server
-gem 'slack-ruby-bot-server', '~> 1.1.0'
+gem 'slack-ruby-bot-server', '~> 1.2.0 '
 gem 'kaminari-mongoid'
 gem 'mongoid-scroll'
 gem 'slack-ruby-bot-server-events', github: 'slack-ruby/slack-ruby-bot-server-events', branch: 'master'
