@@ -37,6 +37,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  #Heroku made me do it.
+  # gem "debugger"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -47,3 +50,6 @@ gem 'slack-ruby-bot-server', '~> 1.2.0 '
 gem 'kaminari-mongoid'
 gem 'mongoid-scroll'
 gem 'slack-ruby-bot-server-events', github: 'slack-ruby/slack-ruby-bot-server-events', branch: 'master'
+
+# Heroku made me do it
+gem 'rails_12factor'

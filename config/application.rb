@@ -40,5 +40,8 @@ module SlackRailsBotStarter
 
     #Stack Overflow made me do this:
     config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+
+    #Heroku made me do this
+    config.serve_static_assets = true
   end
 end
