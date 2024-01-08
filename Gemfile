@@ -10,7 +10,7 @@ gem 'dotenv-rails', '~> 2.7', require: 'dotenv/rails-now'
 # gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
 gem 'rails', '~> 6.1.0'#, '>= 6.0.3.3'
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 5.6'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
